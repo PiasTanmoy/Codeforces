@@ -11,7 +11,7 @@ public class Codeforces723A {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
 
-        int min = 5000;
+        int min = 500;
         int temp;
         for( int i=0; i<=100; i++){
             temp = Math.abs(i-a) + Math.abs(i-b) + Math.abs(i-c);
